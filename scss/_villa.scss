@@ -1,0 +1,61 @@
+.page {
+   &__villa {
+   }
+}
+.villa {
+   background-image: url("../images/main/main_img2.jpg");
+   background-size: cover;
+   background-position: center center;
+   height: 75vh;
+   &__container {
+      position: relative;
+   }
+   &__block {
+      position: absolute;
+      bottom: 100px;
+      left: 0;
+   }
+}
+.block {
+   width: 540px;
+   height: 370px;
+   background-color: #232323;
+   opacity: 0.9;
+   padding: 50px 30px;
+   &__subtitle {
+      font-family: "Josefin Sans";
+      font-size: 20px;
+      line-height: calc(26 / 20 * 100%);
+      letter-spacing: 2px;
+   }
+   &__title {
+      padding: 25px 0 20px 0;
+      font-family: "Josefin Sans";
+      font-size: 20px;
+      color: #fff;
+      line-height: calc(26 / 20 * 100%);
+      text-transform: uppercase;
+   }
+   &__text {
+      width: 480px;
+      height: 65px;
+      font-family: "Josefin Sans";
+      font-size: 16px;
+      line-height: calc(26 / 16 * 100%);
+   }
+   &__button {
+      width: 225px;
+      height: 60px;
+      margin-top: 50px;
+      background-color: #496bfe;
+      font-size: 16px;
+      letter-spacing: 1px;
+      line-height: calc(26 / 16 * 100%);
+      color: #fff;
+      &:hover {
+         background-color: #304396;
+         color: #fff;
+         transition: all 3s;
+      }
+   }
+}

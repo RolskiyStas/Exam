@@ -1,0 +1,22 @@
+.step {
+   background-color: #333333;
+   text-align: center;
+   &__container {
+      position: relative;
+   }
+   &__line {
+      padding-top: 50px;
+      z-index: 1;
+   }
+   &__body {
+      display: flex;
+      justify-content: space-around;
+      padding-top: 30px;
+   }
+   &__column {
+      position: relative;
+      padding-bottom: 120px;
+      font-size: 36px;
+      line-height: calc(26 / 36 * 100%);
+   }
+}

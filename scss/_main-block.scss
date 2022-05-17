@@ -1,0 +1,80 @@
+.main-block {
+   background-image: url("../images/header/header_img.jpg");
+   background-size: cover;
+   background-position: center center;
+   height: 99.3vh;
+   &__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   &__body {
+      text-align: center;
+      font-family: "Josefin Sans";
+      color: #fff;
+   }
+   &__title {
+      padding-top: 10%;
+      font-size: 48px;
+      letter-spacing: 5px;
+      line-height: calc(26 / 48 * 100%);
+      font-weight: 700;
+      text-transform: uppercase;
+   }
+   &__subtitle {
+      font-size: 22px;
+      letter-spacing: 7px;
+      line-height: calc(26 / 22 * 100%);
+      padding-top: 10px;
+   }
+   &__form {
+   }
+   &__scroll {
+      padding-top: 8%;
+      font-family: "Josefin Sans";
+      font-size: 14px;
+      letter-spacing: 3px;
+      line-height: calc(26 / 14 * 100%);
+      color: #fff;
+      position: relative;
+      &:hover {
+         color: #000;
+         transition: all 2s;
+      }
+   }
+}
+.form {
+   display: flex;
+   margin-top: 50px;
+   &__search {
+      width: 560px;
+      height: 60px;
+      font-size: 14px;
+      letter-spacing: 3px;
+      line-height: calc(26 / 14 * 100%);
+      color: #999999;
+      text-align: center;
+      background-color: #fff;
+   }
+   &__button {
+      font-size: 14px;
+      letter-spacing: 1px;
+      line-height: calc(26 / 14 * 100%);
+      font-family: "Aleo";
+      color: #fff;
+      font-weight: 400;
+      text-transform: uppercase;
+      margin-left: 0px;
+      width: 145px;
+      height: 60px;
+      border: 2px solid #fff;
+      background-color: #5474fd;
+      position: relative;
+      &:hover {
+         background-color: #304396;
+         color: #5474fd;
+         transition: all 3s;
+      }
+   }
+}
