@@ -1,14 +1,16 @@
 .spine {
-   background-image: url("../images/main/main_img3.jpg");
-   background-size: cover;
-   background-position: center center;
-   height: 75vh;
-   &__container {
-      position: relative;
-   }
-   &__block {
-      position: absolute;
-      bottom: 100px;
-      right: 0;
-   }
+	background-image: url("../images/main/main_img3.jpg");
+	background-size: cover;
+	background-position: center center;
+	height: 75vh;
+
+	&__container {
+		position: relative;
+	}
+
+	&__block {
+		position: absolute;
+		bottom: 100px;
+		right: 0;
+	}
 }

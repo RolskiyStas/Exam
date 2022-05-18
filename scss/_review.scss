@@ -1,47 +1,52 @@
 .review {
-   background-image: url("../images/main/main_img4.jpg");
-   background-size: cover;
-   background-position: center center;
-   height: 75vh;
-   &__container {
-   }
-   &__title {
-      font-size: 36px;
-      line-height: calc(26 / 36 * 100%);
-      text-align: center;
-      padding: 120px 0 100px 0;
-   }
-   &__block {
-      display: flex;
-   }
-   &__img {
-      width: 445px;
-      height: 285px;
-   }
-   &__author {
-      height: 285px;
-      font-family: "Josefin Sans";
-      color: #fefefe;
-      padding: 50px 60px;
-      background-color: #333333;
-   }
-   &__name {
-      font-size: 20px;
-      line-height: calc(26 / 20 * 100%);
-      text-transform: uppercase;
-      margin-bottom: 25px;
-   }
-   &__text {
-      font-size: 16px;
-      line-height: calc(26 / 16 * 100%);
-      font-family: "Josefin Sans";
-      font-weight: 400;
-   }
+	background-image: url("../images/main/main_img4.jpg");
+	background-size: cover;
+	background-position: center center;
+	height: 75vh;
+
+	&__title {
+		font-size: 36px;
+		line-height: 26px;
+		text-align: center;
+		padding: 120px 0 100px 0;
+	}
+
+	&__block {
+		display: flex;
+	}
+
+	&__img {
+		width: 445px;
+		height: 285px;
+	}
+
+	&__author {
+		height: 285px;
+		font-family: "Josefin Sans";
+		color: #fefefe;
+		padding: 50px 60px;
+		background-color: #333333;
+	}
+
+	&__name {
+		font-size: 20px;
+		line-height: 26px;
+		text-transform: uppercase;
+		margin-bottom: 25px;
+	}
+
+	&__text {
+		font-size: 16px;
+		line-height: 26px;
+		font-family: "Josefin Sans";
+		font-weight: 400;
+	}
 }
+
 .review__text::before {
-   content: "\201C";
-   color: #5474fd;
-   font-size: 70px;
-   vertical-align: middle;
-   
+	content: "\201C";
+	color: #5474fd;
+	font-size: 70px;
+	vertical-align: middle;
+
 }

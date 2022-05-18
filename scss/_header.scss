@@ -1,50 +1,47 @@
 .header {
-   position: absolute;
-   width: 100%;
-   left: 0;
-   top: 96vh;
-   z-index: 50;
-   background-color: #5474fd;
-   text-transform: uppercase;
-   color: #fff;
-   &__container {
-      display: flex;
-      min-height: 80px;
-      align-items: center;
-      justify-content: space-between;
-      position: relative;
-   }
-   &__logo {
-      font-family: "Josefin Sans";
-      font-weight: 700;
-      font-size: 24px;
-      letter-spacing: 2.5px;
-   }
-   &__menu {
-   }
+	height: 8vh;
+	background-color: #5474fd;
+	text-transform: uppercase;
+	color: #fff;
+
+	&__container {
+		display: flex;
+		min-height: 80px;
+		align-items: center;
+		justify-content: space-between;
+		position: relative;
+	}
+
+	&__logo {
+		font-family: "Josefin Sans";
+		font-weight: 700;
+		font-size: 24px;
+		letter-spacing: 2.5px;
+		line-height: 26px;
+	}
 }
+
 .menu {
-   display: flex;
-   &__icon {
-   }
-   &__body {
-   }
-   &__list {
-      display: flex;
-   }
-   &__item {
-      &:not(:last-child) {
-         margin: 0px 40px 0px 0px;
-      }
-   }
-   &__link {
-      font-size: 16px;
-      &:hover {
-         color: #304396;
-         transition: all 3s;
-         border-bottom: 2px double #304396;
-      }
-   }
-}
-.icon-menu {
+	display: flex;
+
+	&__list {
+		display: flex;
+	}
+
+	&__item {
+		&:not(:last-child) {
+			margin: 0 40px 0 0;
+		}
+	}
+
+	&__link {
+		font-size: 14px;
+		line-height: 26px;
+
+		&:hover {
+			color: #304396;
+			transition: all 3s;
+			border-bottom: 2px double #304396;
+		}
+	}
 }
