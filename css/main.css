@@ -388,7 +388,7 @@ template {
 }
 
 .header {
-  height: 8vh;
+  height: 80px;
   background-color: #5474fd;
   text-transform: uppercase;
   color: #fff;
@@ -445,10 +445,9 @@ template {
 }
 
 .main-block {
-  background-image: url("../images/header/header_img.jpg");
+  background: url("../images/header/header_img.jpg") no-repeat;
   background-size: cover;
-  background-position: center center;
-  height: 92vh;
+  height: 740px;
 }
 
 .main-block__container {
@@ -547,7 +546,7 @@ template {
   background-image: url("../images/main/main_img1.jpg");
   background-size: cover;
   background-position: center center;
-  height: 70vh;
+  height: 693px;
 }
 
 .about-as__container {
@@ -692,7 +691,7 @@ template {
   background-image: url("../images/main/main_img2.jpg");
   background-size: cover;
   background-position: center center;
-  height: 75vh;
+  height: 700px;
 }
 
 .villa__container {
@@ -757,7 +756,7 @@ template {
   background-image: url("../images/main/main_img3.jpg");
   background-size: cover;
   background-position: center center;
-  height: 75vh;
+  height: 700px;
 }
 
 .spine__container {
@@ -774,7 +773,7 @@ template {
   background-image: url("../images/main/main_img4.jpg");
   background-size: cover;
   background-position: center center;
-  height: 75vh;
+  height: 740px;
 }
 
 .review__title {
@@ -826,7 +825,7 @@ template {
 
 .footer {
   background-color: #232323;
-  height: 25vh;
+  height: 270px;
   text-align: center;
 }
 
@@ -992,7 +991,7 @@ template {
 
 @media (max-width: 575.98px) {
   .main-block {
-    height: 65vh;
+    height: 600px;
   }
   .main-block__title {
     margin-top: 165px;
@@ -1024,7 +1023,7 @@ template {
     display: none;
   }
   .about-as {
-    height: 65vh;
+    height: auto;
   }
   .about-as__content {
     width: 100%;

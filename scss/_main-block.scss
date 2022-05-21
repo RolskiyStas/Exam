@@ -1,8 +1,7 @@
 .main-block {
-	background-image: url("../images/header/header_img.jpg");
+	background: url("../images/header/header_img.jpg") no-repeat;
 	background-size: cover;
-	background-position: center center;
-	height: 92vh;
+	height: 740px;
 
 	&__container {
 		display: flex;

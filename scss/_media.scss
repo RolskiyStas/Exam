@@ -120,7 +120,7 @@
 // xs <= Small (sm)
 @media (max-width : 575.98px) {
 	.main-block {
-		height: 65vh;
+		height: 600px;
 	}
 
 	.main-block__title {
@@ -161,7 +161,7 @@
 	}
 
 	.about-as {
-		height: 65vh;
+		height: auto;
 	}
 
 	.about-as__content {
